@@ -53,6 +53,7 @@ Versucht Verbindung zu ESP-now herzustellen
 MAC-Adressen der ESP32 ermittelt
 Verbindung zu ESP-now für die Fernsteuerung und das Chassis hergestellt
 Ersten Code zur Fernansteuerung einer LED über ESPnow probiert
+LED zum leuchten gebracht
 
 Probleme und Lösungen:
 MAC-Adressen ermitteln, Code zum ermitteln der Macadressen gefunden
