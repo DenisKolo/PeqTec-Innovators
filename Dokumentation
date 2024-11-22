@@ -1,0 +1,64 @@
+Dokumentation: PeqTec Innovators
+
+Mitglieder:
+Denis Kolodziej
+Michael Dürr
+Christian Distler
+
+Woche 1(04.11-08.11.2024):
+Aktivitäten:
+
+VSC installiert
+Pymakr und node.js installiert
+Bauteile ausgesucht und bestellt(Chassis,H-Brücke,Batteriefach,Verbrauchsmaterial)
+
+Auf thonny gewechselt
+ESP32 verbunden und betriebsbereit gemacht(Firmware heruntergeladen)
+Bauteile für die Steuerung des Autos bestellt(Taster,Platine)
+
+
+Probleme und Lösungen:
+Da wir es nicht hinbekommen habe Micropython auf VSC zu laufen zu bringen, sind wir 
+auf Thonny gewechselt
+
+Code:
+Bisher nicht vorhanden
+
+Quellen:
+https://microcontrollerslab.com/micropython-esp32-esp8266-program-vs-code-pymakr/
+
+
+
+Woche 2(11.11-15.11.2024):
+Aktivitäten:
+Chassis verschraubt
+Motoren, H-Brücke, ESP32 verdrahtet
+Taster an die Fernsteuerung gelötet und verdrahtet
+
+Probleme und Lösungen:
+Motoren zuerst falsch angeschlossen(neu angeschlossen), Chassis anpassen für H-Brücke
+
+Code:
+Bisher nicht vorhanden
+
+Quellen:
+https://funduino.de/nr-34-motoren-mit-h-bruecke-l298n-ansteuern
+https://www.xplore-dna.net/mod/page/view.php?id=4338
+
+
+Woche 3(18.11-22.11.2024):
+
+Aktivitäten:
+Versucht Verbindung zu ESP-now herzustellen
+MAC-Adressen der ESP32 ermittelt
+Verbindung zu ESP-now für die Fernsteuerung und das Chassis hergestellt
+Ersten Code zur Fernansteuerung einer LED über ESPnow probiert
+
+Probleme und Lösungen:
+MAC-Adressen ermitteln, Code zum ermitteln der Macadressen gefunden
+
+Code:
+siehe Git-History
+
+Quellen:
+https://docs.micropython.org/en/latest/library/network.WLAN.html
