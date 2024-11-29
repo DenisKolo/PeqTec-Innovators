@@ -64,3 +64,15 @@ siehe Git-History
 Quellen:
 https://docs.micropython.org/en/latest/library/network.WLAN.html
 https://www.donskytech.com/exploring-esp-now-in-micropython-a-learners-guide/?utm_content=cmp-true
+
+Woche 4(25.11-29.11.2024):
+Aktivitäten:
+-Code für das Auto und die Fernsteuerung geschrieben
+-Erste Versuche zu fahren
+
+Probleme und Lösungen:
+-Probleme mit der Spannung am ESP und an der H-Brücke.
+Lösung:Andere Spannungsquelle genommen
+-Fernsteuerung reagiert nicht immer, Auto fährt verzögert
+Lösung: Fehlersuche
+
