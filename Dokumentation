@@ -82,6 +82,35 @@ Code:
 Quellen:
 https://randomnerdtutorials.com/micropython-esp32-esp8266-dc-motor-l298n/
 
+Woche 5(02.12-06.12.2024):
+
+Aktivitäten:
+-neu orientiert und Chassis gewechselt, aufgrund von geringer Qualität
+-Neues Chassis mit Servo-Lenkung und Joysticks anstatt Tastern geplant und gekauft
+-Spannungsregler und Akku gekauft
+-Neues Chassis machanisch aufgebaut und verdrahtet
+-Controller verdrahtet
+-Joystickwerte ausgelesen(siehe Code Controller_ChassisNeu Zeile 31)
+-Geschwindigkeit und Lenkwinkel mit Hilfe von ChatGpt berechnet
+
+
+Probleme und Lösungen:
+-Joystick-Werte zu unkonstant
+Lösung:ADC-Werte kalibriert(siehe Code Controller_ChassisNeu Zeile 23-26)
+
+Code:
+-Code für Controller geschrieben
+
+Quellen:
+ChatGpt
+
+
+Woche 6(09.12-13.12.2024):
+
+Aktivitäten:
+-Extension-Boards für ESP32 gekauft
+-
+
 
 
 
