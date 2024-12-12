@@ -2,8 +2,8 @@
 Programmieren eines Chassis, um einen Parkour zu bestreiten
 
 Projekt von:
-Denis Kolodziej
-Michael Dürr
+Denis Kolodziej,
+Michael Dürr,
 Christian Distler
 
 Das Grundchassis wurde bestellt und mit Hilfe von einem Mikrocontroller ESP32 fahrbereit gemacht.
