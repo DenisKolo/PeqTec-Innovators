@@ -88,7 +88,7 @@ Aktivitäten:
 -neu orientiert und Chassis gewechselt, aufgrund von geringer Qualität
 -Neues Chassis mit Servo-Lenkung und Joysticks anstatt Tastern geplant und gekauft
 -Spannungsregler und Akku gekauft
--Neues Chassis machanisch aufgebaut und verdrahtet
+-Neues Chassis mechanisch aufgebaut und elektrisch verdrahtet
 -Controller verdrahtet
 -Joystickwerte ausgelesen(siehe Code Controller_ChassisNeu Zeile 31)
 -Geschwindigkeit und Lenkwinkel mit Hilfe von ChatGpt berechnet
@@ -109,7 +109,26 @@ Woche 6(09.12-13.12.2024):
 
 Aktivitäten:
 -Extension-Boards für ESP32 gekauft
--
+-Code für das Chassis geschrieben
+-Codes auf die ESP32 geladen und zu Main.py umgeändert, damit diese automatisch starten bei Nutzung ohne PC
+-Ideen für Controllerdesign gesammelt
+-Bauteile für Controllerdesign bestellt
+-erste Testfahrt durchgeführt mit Erfolg
+
+
+Probleme und Lösungen:
+-Lenkung funktioniert nur, wenn die Antriebe angesteuert werden
+-> PWM Pins waren direkt nebeneinander und haben sich dadurch gegenseitig beeinflusst
+-> anderen Pin für die Servo-Steuerung gewählt
+
+Code:
+-Code für Chassis geschrieben
+
+Quellen:
+ChatGpt
+Random-Nerd-Tutorial
+https://esp32io.com/images/tutorial/ESP-WROOM-32-Dev-Module-pinout.jpg -> Pin-Belegung ESP32
+
 
 
 
